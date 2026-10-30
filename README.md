@@ -1,4 +1,4 @@
-# Classifying Research Abstracts: Science vs Business vs Social Science
+# Research Abstracts Classification into Science, Business and Social Science
 
 ## Streamlit Demo: https://abstract-classification.streamlit.app/
 
