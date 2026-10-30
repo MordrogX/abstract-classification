@@ -1,5 +1,7 @@
 # Classifying Research Abstracts: Science vs Business vs Social Science
 
+## Streamlit Demo: https://abstract-classification.streamlit.app/
+
 ## 1. Problem
 
 Predict the field of a peer-reviewed publication (**Science**, **Business**, **Social Science**) using only its abstract. This is a baseline multi-class text-classification task.
