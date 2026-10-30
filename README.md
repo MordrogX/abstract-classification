@@ -44,13 +44,5 @@ Predict the field of a peer-reviewed publication (**Science**, **Business**, **S
 
 Labels come from OpenAlex's automatic topic assignment and are not hand-verified; Business and Social Science overlap; only abstracts are used; models are untuned baselines.
 
-## 6. How to run
-```bash
-pip install -r requirements.txt
-jupyter notebook Abstract_Classification.ipynb
-streamlit run app.py
-```
-Running the notebook creates `dataset.csv`, `demo_test_data.csv` and `model/artifacts.joblib`, which the app needs.
-
-## 7. Streamlit demo and hosting on GitHub
+## 6. Streamlit demo
 The app lets users (a) paste an abstract or (b) upload a CSV, choose a model (default = best model) and get predicted labels, confidences and, if labels are supplied, accuracy and a confusion matrix.
